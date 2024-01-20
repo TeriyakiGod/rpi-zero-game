@@ -13,7 +13,7 @@
         {
             "label": "transfer",
             "type": "shell",
-            "command": "scp ./build/rpi-zero-game teriyakigod@pi:~/rpi-zero-game",
+            "command": "ssh teriyakigod@pi 'pkill -f ~/rpi-zero-game || true; exit' && scp ./build/rpi-zero-game teriyakigod@pi:~/rpi-zero-game",
             "dependsOn": "build"
         },
         {
