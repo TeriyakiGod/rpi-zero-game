@@ -2,5 +2,8 @@
     "cmake.configureArgs": [
         "-DCMAKE_TOOLCHAIN_FILE=~/rpi-zero-game/PI.cmake",
         "-DCMAKE_BUILD_TYPE=Debug",
-    ]
+    ],
+    "files.associations": {
+        "lcd_test.h": "c"
+    }
 }

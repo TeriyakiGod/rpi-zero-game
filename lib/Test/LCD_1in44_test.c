@@ -2,7 +2,7 @@
 #include "LCD_1in44.h"
 #include "GUI_Paint.h"
 #include "GUI_BMP.h"
-#include "test.h"
+#include "lcd_test.h"
 #include <stdio.h>  //printf()
 #include <stdlib.h> //exit()
 #include <signal.h> //signal()
